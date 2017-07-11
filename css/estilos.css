@@ -4,16 +4,6 @@
 	font-style: normal;
     font-weight: normal;
 	}
-
-
-	/*Media Query*/
-	@media screen and (max-width: 768px){
-		.post .thumb {
-			width: 100%;
-			margin-bottom: 20px;
-			margin-right: 0px;
-		}
-	}
 	
 	* {
 		margin: 0;
@@ -35,6 +25,7 @@
 		background: #90B433;
 	}
 
+	
 	.navbar-inverse{
 		background: #F4E337;
 		border-color: #F4E337 !important;
@@ -43,6 +34,7 @@
 	#nav-i ul a {
 		color: #000066;
 		font-family: 'indico';
+		text-align: center;
 	}
 
 	#nav-i ul a:hover{
@@ -61,6 +53,7 @@
 	.menu:hover{
 		background: yellow !important;
 	}
+
 
 	footer {
 		background: #F4E337;
@@ -82,9 +75,12 @@
 
 	footer i{
 		color: #000066;
-	}
+		}
 	footer i:hover{
 		color: white;
+	}
+	footer p{
+		text-align: center;
 	}
 	
 	/* Contenido */
@@ -94,7 +90,7 @@
 		background-image: url(../img/fondo1.png);
 		background-repeat: no-repeat;
 		background-size: 280px;
-		background-position: 0px 60px;
+		background-position: 0px 50px;
 	}
 	
 	.txsomos{
