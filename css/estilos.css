@@ -165,3 +165,46 @@
 		padding-top: 30px;
 	}
 
+	/* Estilos de Equipo */
+
+	/* Estilos de Nuestro trabajo */
+
+	/* Estilos de Contacto */
+	.formulario{
+		background: rgba(96, 96, 96, 0.2);
+		font-family: "arialn";
+		color: #000066;
+		padding: 50px;
+	}
+	.btn-primary{
+		background: #000066 !important;
+	}
+	.btn-primary:hover{
+		background: rgba(0, 0, 102, 0.8)!important;
+	}
+	.espacioContacto{
+		height: 200px;
+	}
+
+	/* Estilos de Enviar */
+
+	.primero {
+		background-image: url(../img/fondo1.png);
+		background-repeat: no-repeat;
+		background-size: 280px;
+		background-position: 0px 50px;
+	}
+	
+	.txtRespuesta{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+		background: rgba(96, 96, 96, 0.8);;
+		color: white;
+		font-family: "futura";
+		font-size: 18px;
+	}
+
+	.espacioEnviar{
+		height: 250px;
+	}
