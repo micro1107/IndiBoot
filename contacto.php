@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/fontello.css">
 	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <script >
 	    function validar() {

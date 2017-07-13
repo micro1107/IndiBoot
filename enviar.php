@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body class="primero">
 
@@ -67,6 +68,16 @@
 				</section>
 			</div>
 	<?php  
+
+		$destino = "julian-ibarra1107@hotmail.com";
+		$nombre = $_POST['txtNombre'];
+		$correo = $_POST['txtEmail'];
+		$asunto = $_POST['txtAsunto'];
+		$mensaje = $_POST['txtMensaje'];
+
+		$contenido = "Nombre: ".$nombre."\nCorreo: ".$correo. "\nAsunto: ".$asunto."\nMensaje: ".$mensaje;
+		mail($destino,"Contacto Indico Lab".$asunto,$contenido);
+
 		/*if (isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) {
 			$secret = "6LdwvSgUAAAAALsWNs9b6vYDDizNGGdtRdk-gKCd";
 			$ip = $_SERVER["REMOTE_ADDR"];
