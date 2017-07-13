@@ -46,7 +46,73 @@
 		background: #90B433;
 	}
 
+	/* Estilos Menu */
+
+	header .logotipo{
+		background: #F4E337;
+		align-items: center;
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+
+	header .navegacion{
+		font-family: "indico";
+		background: #F4E337;
+		align-items: center;
+		width: 100%;
+		color: #000066;
+	}
+
+	.boton-menu{
+		display: none;
+	}
 	
+	.boton-menu span{
+		color: #000066;
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+	.menu{
+		list-style: none;
+		width: 100%;
+		text-align: center;
+	}
+	.menu li{
+		display: inline-block;
+	}
+	.menu a{
+		color: #000066;
+	}
+	.menu a:hover{
+		color: white;
+	}
+	.menu li a{
+		display: block;
+		padding: 15px;
+	}
+
+	@media screen and (max-width: 768px) {
+		.boton-menu{
+			width: 90%;
+			margin: auto;
+			display: block;
+		}
+		.navegacion nav{
+			position: absolute;
+			z-index: 1;
+			background: #F4E337;
+			left: -100%;
+		}
+		.menu li{
+			display: block;
+		}
+		.menu a:hover{
+		color: blue;
+		}
+	}
+
+	/* Menu Viejo 
 	.navbar-inverse{
 		background: #F4E337;
 		border-color: #F4E337 !important;
@@ -74,7 +140,7 @@
 	.menu:hover{
 		background: yellow !important;
 	}
-
+	*/
 
 	footer {
 		background: #F4E337;
@@ -134,7 +200,10 @@
 		font-family: "futura";
 		font-size: 18px;
 	}
-
+	
+	.logo2{
+		padding-top: 100px;
+	}
 	.espacio1{
 	height: 300px;
 	}
