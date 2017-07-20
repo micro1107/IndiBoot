@@ -92,7 +92,7 @@
 				
 			</div>
 			<div class="col-xs-8 col-sm-4 col-md-4">
-				<img src="img/logo-menu2.png" alt="Logo-Indico" class="img-responsive">
+				<img src="img/logo-menu4.png" alt="Logo-Indico" class="img-responsive center-block">
 			</div>
 			<div class="col-xs-2 col-sm-4 col-md-4">
 				
@@ -115,7 +115,6 @@
 			</nav>
 		</div>
 </header>
-
 	<section class="container-fluid">
 		<div class="row formulario">
 			<div class="col-md-2">

@@ -187,7 +187,7 @@
 	.primero {
 		background-image: url(../img/fondo1.png);
 		background-repeat: no-repeat;
-		background-size: 280px;
+		background-size: 100%;
 		background-position: 0px 50px;
 	}
 	
@@ -210,6 +210,12 @@
 
 	/* Estilos de QUE HACEMOS */
 	
+	.qhacemos{
+		background-image: url(../img/qhacemos.png);
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 100% 95%;
+	}
 	.banners{
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -240,6 +246,31 @@
 	}
 
 	/* Estilos de Equipo */
+
+	.equipo{
+		background-image: url(../img/equipo2.png);
+		background-repeat: no-repeat;
+		background-size: 20%;
+		background-position: 0% 90%;
+	}
+	.equipo2{
+		background-image: url(../img/equipo.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 900px 0px;
+	}
+	.espacioEquipo{
+		height: 100px;
+	}
+	.txEquipo{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+		background: rgba(96, 96, 96, 0.8);
+		color: white;
+		font-family: "futura";
+		font-size: 18px;
+	}
 
 	/* Estilos de Nuestro trabajo */
 
