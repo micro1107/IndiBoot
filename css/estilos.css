@@ -63,10 +63,6 @@
 		color: #000066;
 	}
 
-	header{
-		padding: 0px;
-	}
-
 	.boton-menu{
 		display: none;
 	}
@@ -239,7 +235,8 @@
 	}
 
 	.containercero{
-		padding: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	/* Estilos de Equipo */
