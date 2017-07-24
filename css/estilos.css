@@ -183,8 +183,12 @@
 	/* Contenido */
 
 	/*Body*/
-	.carousel-control{
+	.carousel-control .caro{
 	background: transparent !important;
+	}
+	.caro{
+	background: transparent !important;
+
 	}
 	/* Estilos de que somos */
 	.primero {
@@ -231,6 +235,14 @@
 		background-size: 50%;
 		background-position: 100% 95%;
 	}
+	@media screen and (max-width: 768px) {
+		.qhacemos{
+		background-image: url(../img/qhacemos.png);
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 100px 700px;
+		}
+	}
 	.banners{
 		padding-top: 15px;
 		padding-bottom: 15px;
@@ -276,19 +288,43 @@
 	/* Estilos de Equipo */
 
 	.equipo{
-		background-image: url(../img/equipo2.png);
-		background-repeat: no-repeat;
-		background-size: 20%;
-		background-position: 0% 90%;
-	}
-	.equipo2{
 		background-image: url(../img/equipo.png);
 		background-repeat: no-repeat;
+		background-size: 20%;
+		background-position: 1080px 110px;
+	}
+	@media screen and (max-width: 768px) {
+		.equipo{
+		background-image: url(../img/equipo.png);
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 200px 100px;
+		}
+	}
+	.equipo2{
+		background-image: url(../img/equipo2.png);
+		background-repeat: no-repeat;
 		background-size: 30%;
-		background-position: 900px 0px;
+		background-position: 0px 50px;
+	}
+	@media screen and (max-width: 768px) {
+		.equipo2{
+		background-image: url(../img/equipo2.png);
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 0px 0px;
+		}
 	}
 	.espacioEquipo{
 		height: 100px;
+	}
+	.espacioEquipo2{
+		height: 300px;
+	}
+	@media screen and (max-width: 768px) {
+		.espacioEquipo2{
+		height: 100px;
+	}
 	}
 	.txEquipo{
 		padding-top: 50px;
