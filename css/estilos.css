@@ -179,6 +179,9 @@
 		text-align: center;
 		line-height: 6px;
 	}
+	.copy{
+		line-height: 0px;
+	}
 	
 	/* Contenido */
 
@@ -360,11 +363,32 @@
 		font-family: "futura";
 		font-size: 18px;
 	}
+	@media screen and (max-width: 768px) {
+		.texto{
+			height: 200px;
+		}
+	}
+
 	.espacioNt{
 		height: 20px;
 	}
 	.espacioNt2{
 		height: 100px;
+	}
+	
+	.nt{
+		background-image: url(../img/fondo1.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 0px 50px;
+	}
+	@media screen and (max-width: 768px) {
+		.nt{
+		background-image: url(../img/fondo1.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 0px 105px;
+		}
 	}
 
 

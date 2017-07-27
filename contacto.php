@@ -169,8 +169,13 @@
 			<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+		</div><br>
+		<div class="copy">
+		<p class="city">© 2017 Julian Ibarra</p>
 		</div>
 </footer>
+
+
 
 
 <script src="js/jquery.js"></script>
